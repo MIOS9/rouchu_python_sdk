@@ -1,9 +1,5 @@
-from pydoc import cli
-from wsgiref.util import request_uri
 from pymodbus.client import ModbusTcpClient
-from pymodbus.transaction import ModbusSocketFramer
 from rouchu import get_pressure, set_pressure,launch_pressure,is_pressure_launched
-
 
 if __name__ == "__main__":
     # 连接夹爪
