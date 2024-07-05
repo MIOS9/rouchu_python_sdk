@@ -161,3 +161,5 @@ def launch_pressure(client: ModbusTcpClient, state: str = 'ON', style: str = 'Po
     response_message = send_request(client, request)
 
     return response_message.value
+
+
