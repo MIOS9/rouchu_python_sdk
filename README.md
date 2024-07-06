@@ -10,5 +10,5 @@ pip install pymodbus
 ```
 ## setup 2. 测试SDK
 ```
-python3 robotcontrol.py
+python3 demo.py
 ```
